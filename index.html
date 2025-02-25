@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silvopasture</title>
+    <style>
+        .page-wrapper {
+    background-color: #fffec0; /* Dark green for the rest of the page */
+}
+
+.hero-section {
+    height: 100vh; /* Full viewport height */
+    background: url('heroimage.jpg') no-repeat center center/cover;
+}
+
+.content-section {
+    padding: 50px;
+    background-color: #fafad3ee; /* Ensure rest of the page has a background */
+}
+
+        body {
+            font-family: Arial, sans-serif;
+    background-color: #1b3d1b;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    background: url('heroimage.jpg') no-repeat top center;
+    background-size: contain;
+    min-height: 100vh;
+        }
+        .container {
+            max-width: 50%;
+            padding: 50px;
+            text-align: left;
+            position: absolute;
+            top: 20px;
+            left: 0px;
+        }
+        h1 {
+            font-size: 12vw;
+            color: #ffffff;
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+            margin: 0;
+        }
+        .slogan {
+            font-size: 28px;
+            color: #2c3e50;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .info-box {
+            max-width: 80%;
+            margin: 10px auto 50px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+            color: #2c3e50;
+            text-align: center;
+            font-size: 22px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .info-box:hover {
+            transform: scale(1.05);
+        }
+        .gallery-heading {
+    text-align: center;
+    font-size: 28px;
+    color: #2c3e50;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+        .image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap; /* Allows images to wrap into multiple rows */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+.image-gallery img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+}
+
+
+        .footer {
+            height: 300px;
+            background-color: #0f2b0f;
+            text-align: center;
+            color: #ffffff;
+            padding: 50px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="hero-section">
+            <div class="container">
+                <h1>Silvopasture</h1>
+                <p class="slogan">Bringing trees and livestock together for a greener future</p>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="info-box">
+                <p><strong>What is Silvopasture?</strong></p>
+                <p>Silvopasture is a smart way of farming that mixes trees, animals, and pasture together. It helps farmers use land wisely, keeps animals healthy, and supports nature at the same time.</p>
+            </div>
+            <div class="info-box">
+                <p><strong>Benefits of Silvopasture</strong></p>
+                <p>✔️ Improves soil health <br>✔️ Increases biodiversity <br>✔️ Provides shade and shelter for livestock <br>✔️ Generates additional income from trees</p>
+            </div>
+            <div class="info-box">
+                <p><strong>How It Works?</strong></p>
+                <p>Farmers plant trees on grazing lands, allowing livestock to roam freely. The trees provide shade and protection while enhancing soil fertility. Over time, both plants and animals thrive together.</p>
+            </div>
+        </div>
+        <h2 class="gallery-heading">Image Gallery</h2>
+        <div class="image-gallery">
+            <img src="image1.jpg" alt="Silvopasture Land 1">
+            <img src="image2.png" alt="Silvopasture Land 2">
+            <img src="image3.png" alt="Silvopasture Land 3">
+            <img src="image4.png" alt="Silvopasture Land 4">
+            <img src="image5.png" alt="Silvopasture Land 5">
+            <img src="image6.png" alt="Silvopasture Land 6">
+            <img src="image7.png" alt="Silvopasture Land 7">
+            <img src="image8.png" alt="Silvopasture Land 8">
+        </div>
+
+        <div class="footer">
+            <p>Contact Us | About Us | Terms & Conditions</p>
+            <p>&copy; 2025 Silvopasture Initiative</p>
+        </div>
+    </div>
+    
+</body>
+</html>
